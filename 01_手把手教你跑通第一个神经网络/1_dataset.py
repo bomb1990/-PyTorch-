@@ -59,6 +59,7 @@ def eg_1_2_0():
   print("train_dataset[{}]: {}".format(index, train_dataset[index]))  # (PIL.Image.Image, 5)
   import matplotlib.pyplot as plt
   plt.imshow(train_dataset[index][0], cmap ='gray')
+  plt.show()
   print("len(train_dataset): {}".format(len(train_dataset)))
 
 
@@ -177,7 +178,7 @@ if __name__ == "__main__":
   # eg_1_2_1()
   # eg_1_3()
   # eg_1_4_0()
-  eg_1_4_1()
+  # eg_1_4_1()
 
   print("~~~~~~下课~~~~~~")
 
